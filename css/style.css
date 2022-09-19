@@ -27,6 +27,7 @@ body {
 }
 #operacao {
   text-align: right;
+
 }
 #prev-op,
 #current-op{
@@ -36,13 +37,14 @@ body {
 }
 #prev-op {
   color: var(--cor-6);
+  min-height: 30px;
   
 }
 
 #current-op {
   font-size: 48px;
   font-weight: 700;
- 
+  min-height: 66px;
 }
 
 .btn-container {
